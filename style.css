@@ -1,0 +1,108 @@
+:root{
+    --accent-color:#757575 ;
+    --title-color:#212121
+}
+
+
+header>section>div>a[href="./index.html"]{
+    color:var(--title-color)
+}
+
+header>section>ul>li>a[href="./Studio.html"]{
+    color: #000;
+}
+
+header>section>ul>li>a[href="./Studio.html"]:hover{
+    color: #2196F3;
+}
+
+header>section>ul>li>a[href="./portfolio.html"]{
+    color: #000;
+}
+
+header>section>ul>li>a[href="./portfolio.html"]:hover{
+    color: #2196F3;
+}
+
+header>section>ul>li>a[href="./kontakty.html"]{
+    color: #000;
+}
+header>section>ul>li>a[href="./kontakty.html"]:hover{
+    color: #2196F3;
+}
+
+header>section>address>a[href="mailto:info@devstudio.com"]{
+    color: #2196F3;
+}
+header>section>address>a[href="mailto:info@devstudio.com"]:hover{
+    color: #000;
+}
+
+header>section>address>a[href="tel:+380981111111"]{
+    color: #757575;
+}
+
+.title{
+    color: #ffffff;
+    position: relative;
+}
+
+button{
+    color: #ffffff;
+    background-color: #2196F3;
+    position: relative;   
+}
+.box{
+    width: 600px;
+    height: 70px;
+    background-color: #2F303A;
+    border: 1px solid #000;
+    position: absolute;
+    top: 12;
+    left: 0;
+}
+
+section>ul>li>h2{
+    color: var(--title-color);
+}
+
+section>ul>li>p{
+    color: #757575;
+}
+
+.box1{
+    width: 400px;
+    height: 1700px;
+    background-color: #F5F4FA;
+    position: absolute;
+    top: 12;
+    left: 0;  
+}
+
+section>ul>li>img{
+    position: relative;
+}
+
+.box2{
+    width: 400px;
+    height: 200px;
+    background-color: #2F303A;
+    position: absolute;
+    top: 12;
+    left: 0;  
+}
+
+footer>h2{
+    color: #FFFFFF;
+    position: relative;
+}
+
+footer>address>p{
+    color: #FFFFFF;
+    position: relative;
+}
+
+footer>address>a{
+    color: rgba(255, 255, 255, 0.6);
+    position: relative;
+}
