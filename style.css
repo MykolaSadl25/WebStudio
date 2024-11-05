@@ -1,6 +1,13 @@
 :root{
     --accent-color:#757575 ;
-    --title-color:#212121
+    --title-color:#000;
+    --logo-color:#2196F3;
+    --bcg-color:rgba(245, 244, 250, 1);
+    --footer-bcg-color:rgba(47, 48, 58, 1);
+    --email-tel-footer-color:rgba(255, 255, 255, 0.6);
+    --tel-header-color:rgba(117, 117, 117, 1);
+    --header-hover-color:rgba(33, 150, 243, 1);
+    --hero-section-bcg-color:rgba(47, 48, 58, 1);
 }
 
 
