@@ -11,66 +11,183 @@
 }
 
 
-header>a[href="../index.html"]{
+header>a[href="./index.html"]{
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
     color:var(--title-color)
 }
 
-header>nav>ul>li>a[href="./Studio.html"]{
-    color: #000;
-}
-
-header>nav>ul>li>a[href="./Studio.html"]:hover{
+header>nav>ul>li>a[href="./pages/Studio.html"]{
     color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 
-header>nav>ul>li>a[href="./portfolio.html"]{
+header>nav>ul>li>a[href="./pages/Studio.html"]:hover{
     color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 
-header>nav>ul>li>a[href="./portfolio.html"]:hover{
-    color: #2196F3;
-}
-
-header>nav>ul>li>a[href="./kontakty.html"]{
+header>nav>ul>li>a[href="./pages/portfolio.html"]{
     color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
-header>nav>ul>li>a[href="./kontakty.html"]:hover{
+
+header>nav>ul>li>a[href="./pages/portfolio.html"]:hover{
     color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+header>nav>ul>li>a[href="./pages/kontakty.html"]{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+header>nav>ul>li>a[href="./pages/kontakty.html"]:hover{
+    color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 
 header>ul>li>a[href="mailto:info@devstudio.com"]{
     color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 header>ul>li>a[href="mailto:info@devstudio.com"]:hover{
     color: #000;
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
 }
 
 header>ul>li>a[href="tel:+380981111111"]{
     color: #757575;
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+section>h1{
+    font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; /* 136.364% */
+letter-spacing: 2.64px;
+text-transform: uppercase;
 }
 
 button{
     color: #ffffff;
     background-color: #2196F3;
-    position: relative;   
+    position: relative; 
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;  
 }
 
 section>ul>li>h2{
     color: var(--title-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
 }
 
 section>ul>li>p{
     color: #757575;
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
+section>h2{
+    font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
 }
 
 section>ul>li>img{
     position: relative;
 }
 section>ul>li>img>h2{
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
     color:var(--title-color)
 }
 
-footer>ul>li>a{
-    color: #757575;
+footer>h2{
+    font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
 }
-
+footer>address>ul>li>a{
+    color: #757575;
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
