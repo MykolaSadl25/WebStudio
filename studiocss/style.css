@@ -11,7 +11,7 @@
 }
 
 
-header>a[href="./index.html"]{
+header>a[href="../index.html"]{
     color:var(--title-color)
 }
 

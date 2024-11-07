@@ -1,0 +1,194 @@
+:root{
+    --accent-color:#757575 ;
+    --title-color:#000;
+    --logo-color:#2196F3;
+    --bcg-color:rgba(245, 244, 250, 1);
+    --footer-bcg-color:rgba(47, 48, 58, 1);
+    --email-tel-footer-color:rgba(255, 255, 255, 0.6);
+    --tel-header-color:rgba(117, 117, 117, 1);
+    --header-hover-color:rgba(33, 150, 243, 1);
+    --hero-section-bcg-color:rgba(47, 48, 58, 1);
+}
+
+
+header>a[href="./index.html"]{
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    color:var(--title-color)
+}
+
+header>nav>ul>li>a[href="./pages/Studio.html"]{
+    color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+header>nav>ul>li>a[href="./pages/Studio.html"]:hover{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+header>nav>ul>li>a[href="./pages/portfolio.html"]{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+header>nav>ul>li>a[href="./pages/portfolio.html"]:hover{
+    color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+header>nav>ul>li>a[href="./pages/kontakty.html"]{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+header>nav>ul>li>a[href="./pages/kontakty.html"]:hover{
+    color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+header>ul>li>a[href="mailto:info@devstudio.com"]{
+    color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+header>ul>li>a[href="mailto:info@devstudio.com"]:hover{
+    color: #000;
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+header>ul>li>a[href="tel:+380981111111"]{
+    color: #757575;
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+section>h1{
+    font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; /* 136.364% */
+letter-spacing: 2.64px;
+text-transform: uppercase;
+}
+
+button{
+    color: #ffffff;
+    background-color: #2196F3;
+    position: relative; 
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;  
+}
+
+section>ul>li>h2{
+    color: var(--title-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+section>ul>li>p{
+    color: #757575;
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
+section>h2{
+    font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+
+section>ul>li>img{
+    position: relative;
+}
+section>ul>li>img>h2{
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+    color:var(--title-color)
+}
+
+footer>h2{
+    font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+footer>address>ul>li>a{
+    color: #757575;
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
