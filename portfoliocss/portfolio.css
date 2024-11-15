@@ -8,110 +8,106 @@
     --tel-header-color:rgba(117, 117, 117, 1);
     --header-hover-color:rgba(33, 150, 243, 1);
     --hero-section-bcg-color:rgba(47, 48, 58, 1);
+    --footer-bcg:#2F303A;
+    --text-color:#FFF;
 }
 
 
-header>a[href="../index.html"]{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body{
+    font-family:Roboto;
+}
+
+.header-index{
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    color:var(--logo-color)
+}
+
+.header-index2{
+    font-family: Raleway;
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
     color:var(--title-color)
-    
 }
 
-header>nav>ul>li>a[href="./Studio.html"]{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.header-studio{
     color: var(--title-color);
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
 }
 
-header>nav>ul>li>a[href="./Studio.html"]:hover{
+.header-studio:hover{
     color: var(--logo-color);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
 }
 
-header>nav>ul>li>a[href="./portfolio.html"]{
+.header-portfolio{
     color: var(--logo-color);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
 }
 
-header>nav>ul>li>a[href="./portfolio.html"]:hover{
+.header-portfolio:hover{
     color: var(--title-color);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
-
 }
 
-header>nav>ul>li>a[href="./kontakty.html"]{
+.header-kontakty{
     color: var(--title-color);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
 }
-header>nav>ul>li>a[href="./kontakty.html"]:hover{
+.header-kontakty:hover{
     color: var(--logo-color);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
 }
 
-header>address>ul>li>a[href="mailto:info@devstudio.com"]{
+.header-mail{
     color: var(--logo-color);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
 }
-header>address>ul>li>a[href="mailto:info@devstudio.com"]:hover{
+.header-mail:hover{
     color: var(--title-color);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
+font-size: 14px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
 }
 
-header>address>ul>li>a[href="tel:+380981111111"]{
+.header-tel{
     color: var(--accent-color);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
+font-size: 14px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
 }
 
-section>ul>li:first-child>button{
+.pages-bluebutton{
     color: var(--bcg-color);
     background-color: var(--logo-color);
     position: relative; 
@@ -128,7 +124,7 @@ section>ul>li:first-child>button{
     flex-shrink: 0;
 }
 
-section>ul>li:nth-child(2)>button{
+.pages-btn{
     color:var(--title-color);
     background-color: var(--bcg-color);
     position: relative; 
@@ -145,57 +141,7 @@ section>ul>li:nth-child(2)>button{
     flex-shrink: 0;
 }
 
-section>ul>li:nth-child(3)>button{
-    color: var(--title-color);
-    background-color: var(--logo-color);
-    position: relative; 
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    font-style: normal; 
-    font-weight: 500;
-    line-height: 26px; /* 162.5% */
-    letter-spacing: 0.48px;
-    border-radius: 4px;
-    background: var(--bcg-color);
-    width: 125px;
-    height: 38px;
-    flex-shrink: 0;
-}
-
-section>ul>li:nth-child(4)>button{
-    color: var(--title-color);
-    background-color: var(--logo-color);
-    position: relative; 
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    font-style: normal; 
-    font-weight: 500;
-    line-height: 26px; /* 162.5% */
-    letter-spacing: 0.48px;
-    border-radius: 4px;
-    background: var(--bcg-color);
-    width: 125px;
-    height: 38px;
-    flex-shrink: 0;
-}
-
-section>ul>li:nth-child(5)>button{
-    color: var(--title-color);
-    background-color: var(--logo-color);
-    position: relative; 
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    font-style: normal; 
-    font-weight: 500;
-    line-height: 26px; /* 162.5% */
-    letter-spacing: 0.48px;
-    border-radius: 4px;
-    background: var(--bcg-color);
-    width: 125px;
-    height: 38px;
-    flex-shrink: 0;
-}
-section>ul>li>h2{
+.gallery-name{
     color: var(--title-color);
     font-family: Roboto;
     font-size: 18px;
@@ -205,7 +151,7 @@ section>ul>li>h2{
     letter-spacing: 1.08px;
 }
 
-section>ul>li>p{
+.gallery-name{
     color: var(--accent-color);
     font-family: Roboto;
     font-size: 16px;
@@ -215,41 +161,44 @@ section>ul>li>p{
     letter-spacing: 0.48px;
 }
 
+.footer{
+    background: var(--footer-bcg);
+}
 
-
-footer>.box2{
+.footer-logo{
+    color: var(--logo-color);
     font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
-}
-footer>address>ul>li>a[href="https://www.google.co.uk/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0,+02000/@50.4282679,30.5314055,1518m/data=!3m1!1e3!4m6!3m5!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"]{
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 171.429% */
-    letter-spacing: 0.42px;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
 }
 
-footer>address>ul>li>a[href="mailto:info@devstudio.com"]{
-    color: var(--accent-color);
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 171.429% */
-    letter-spacing: 0.42px;
+.footer-logo2{
+    color: var(--text-color);
+    font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
 }
 
-footer>address>ul>li>a[href="tel:+380981111111"]{
-    color: var(--accent-color);
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 171.429% */
-    letter-spacing: 0.42px;
+.address-map{
+    color: var(--text-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
+.address{
+    color: var(--email-tel-footer-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71; /* 171.429% */
+letter-spacing: 0.42px;
 }
