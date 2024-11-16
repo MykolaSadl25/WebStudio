@@ -13,24 +13,26 @@
     <!-- Шапка -->
     <header>
         <a class="header-index" href="../index.html">Web<span class="header-index2">Studio</span></a>
-        <nav>
-          <ul>
-            <li>
+        <nav class="navigation">
+          <ul class="header-list">
+            <li class="header-item">
+              <!-- відповідь на  відео:вони не можуть бути одним класом тому що в них ріні кольори.Студіо має синій колір
+               а портфоліо та контакти не мають синьго.Якщо вони будуть одним класом то я не зможу зробити окремо студію.  -->
               <a class="header-studio" href="./Studio.html">Студія</a>
             </li>
-            <li>
+            <li class="header-item">
               <a class="header-portfolio" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li>
+            <li class="header-item">
               <a class="header-kontakty" href="./kontakty.html">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul>
-        <li>
+        <ul class="header-contact">
+        <li class="header-catalogue">
           <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li>
+        <li class="header-catalogue">
           <a class="header-tel" href="tel:+380981111111">+380981111111</a>
         </li>
       </ul>
@@ -43,28 +45,28 @@
       </section>
       <!-- ОСОБЛИВОСТІ -->
       <section class="features">
-        <ul>
-          <li>
+        <ul class="features list">
+          <li class="features-item">
             <h2 class="features-subtitle">УВАГА ДО ДЕТАЛЕЙ</h2>
             <p class="features-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h2 class="features-subtitle">ПУНКТУАЛЬНІСТЬ</h2>
             <p class="features-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h2 class="features-subtitle">ПЛАНУВАННЯ</h2>
             <p class="features-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h2 class="features-subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
             <p class="features-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -76,15 +78,16 @@
       <!-- ЧИМ МИ ЗАЙМАЄМОСЯ -->
       <section class="work">
         <h2 class="work-title">Чим ми займаємося</h2>
-        <ul>
-          <li>
-            <img src="../indeximages/box1.jpg" alt="computer" width="300" />
+        <ul class="work-list">
+          <li class="work-item">
+            <img class="work-gallery" src="../indeximages/box1.jpg" alt="computer" width="300" />
           </li>
-          <li>
-            <img src="../indeximages/box2.png" alt="application" width="300" />
+          <li class="work-item">
+            <img class="work-gallery" src="../indeximages/box2.png" alt="application" width="300" />
           </li>
-          <li>
+          <li class="work-item">
             <img
+            class="work-gallery"
               src="../indeximages/box3.png"
               alt="graphic design "
               width="356"
@@ -94,28 +97,28 @@
       </section>
       <section class="team">
         <h2 class="team-heading">Наша команда</h2>
-        <ul>
-          <li>
+        <ul class="team-list ">
+          <li class="team-item">
             <!-- Ігор Дем'яненко -->
-            <img src="../indeximages/img.jpg" alt="Igor" width="300" />
+            <img class="team-gallery" src="../indeximages/img.jpg" alt="Igor" width="300" />
             <h2 class="team-name">Ігор Дем'яненко</h2>
             <p class="team-description">Product Designer</p>
           </li>
-          <li>
+          <li class="team-item">
             <!-- Ольга Рєпіна -->
-            <img src="../indeximages/img (1).jpg" alt="Olga" width="300" />
+            <img class="team-gallery" src="../indeximages/img (1).jpg" alt="Olga" width="300" />
             <h2 class="team-name">Ольга Рєпіна</h2>
             <p class="team-description">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-item">
             <!-- Микола Тарасов -->
-            <img src="../indeximages/img (2).jpg" alt="Mykola" width="300" />
+            <img class="team-gallery" src="../indeximages/img (2).jpg" alt="Mykola" width="300" />
             <h2 class="team-name">Микола Тарасов</h2>
             <p class="team-description">Marketing</p>
           </li>
-          <li>
-            <!-- Ігор Дем'яненко -->
-            <img src="../indeximages/img (3).jpg" alt="Myhaylo" width="300" />
+          <li class="team-item">
+            <!-- Михайло Єрмаков -->
+            <img class="team-gallery" src="../indeximages/img (3).jpg" alt="Myhaylo" width="300" />
             <h2 class="team-name">Михайло Єрмаков</h2>
             <p class="team-description">UI Designer</p>
           </li>
@@ -125,15 +128,15 @@
     <!-- Підвал -->
     <footer class="footer">
       <h2 class="footer-logo">Web<span class="footer-logo2">Studio</span></h2>
-      <ul>
-        <li><a
+      <ul class="footer-list">
+        <li class="footer-item"><a
           class="address-map"
           href="https://www.google.co.uk/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0,+02000/@50.4282679,30.5314055,1518m/data=!3m1!1e3!4m6!3m5!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"
           target="_blank"
           title="Адреса"
         >м. Київ, пр-т Лесі Українки, 26</a>
-        <li><a class="address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="address" href="tel:+380981111111">+380981111111</a></li></li>
+        <li class="footer-item"><a class="address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="footer-item"><a class="address" href="tel:+380981111111">+380981111111</a></li></li>
       </ul>
     </footer> 
 </body>
