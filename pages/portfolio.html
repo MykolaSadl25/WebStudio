@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="../portfoliocss/portfolio.css" />
+    <link rel="stylesheet" href="../portfoliocss/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -13,35 +13,37 @@
     <!-- Шапка -->
     <header class="header">
       <a class="header-index" href="../index.html">Web<span class="header-index2">Studio</span></a>
-      <nav class="navigation">
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="header-studio" href="./Studio.html">Студія</a>
-          </li>
-          <li class="header-item">
-            <a class="header-portfolio" href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li class="header-item">
-            <a class="header-kontakty" href="./kontakty.html">Контакти</a>
-          </li>
-        </ul>
-      </nav>
-        <ul class="header-contact">
-          <li class="header-catalogue">
-            <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="header-catalogue">
-            <a class="header-tel" href="tel:+380981111111">+380981111111</a>
-          </li>
-        </ul>
-    </header>
+    <nav class="nav">
+      <ul class="header-list">
+        <li class="header-item">
+          <!-- відповідь на  відео:вони не можуть бути одним класом тому що в них ріні кольори.Студіо має синій колір
+           а портфоліо та контакти не мають синього.Якщо вони будуть одним класом то я не зможу зробити окремо студію.  -->
+          <a class="header-link" href="./Studio.html">Студія</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="./portfolio.html">Портфоліо</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="./kontakty.html">Контакти</a>
+        </li>
+      </ul>
+    </nav>
+    <ul class="header-items">
+      <li class="header-element">
+        <a class="header-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      </li>
+      <li>
+        <a  class="header-contact" href="tel:+380981111111">+380981111111</a>
+      </li>
+    </ul>
+</header>
     <!-- Головна частина сайту -->
     <main>
       <!-- Buttons -->
       <section class="pages">
         <ul class="pages-list">
           <li class="pages-item">
-            <button type="button" class="pages-bluebutton">Усі</button>
+            <button type="button" class="pages-btn">Усі</button>
           </li>
           <li class="pages-item">
             <button type="button" class="pages-btn">Веб-сайти</button>
@@ -129,8 +131,8 @@
             target="_blank"
             title="Адреса"
           >м. Київ, пр-т Лесі Українки, 26</a>
-          <li class="footer-item"><a class="address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="footer-item"><a class="address" href="tel:+380981111111">+380981111111</a></li></li>
+          <li class="footer-item"><a class="footer-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="footer-item"><a class="footer-contact" href="tel:+380981111111">+380981111111</a></li></li>
         </ul>
       </address>
     </footer>
