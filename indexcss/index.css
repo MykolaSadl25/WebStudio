@@ -24,7 +24,7 @@ body{
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.38;
     letter-spacing: 0.78px;
     color:var(--logo-color)
 }
@@ -34,7 +34,7 @@ body{
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.38;
     letter-spacing: 0.78px;
     color:var(--title-color)
 }
@@ -43,7 +43,7 @@ body{
     color: var(--logo-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.14;
     letter-spacing: 0.28px;
 }
 
@@ -51,7 +51,7 @@ body{
     color: var(--title-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.14;
     letter-spacing: 0.28px;
 }
 
@@ -59,7 +59,7 @@ body{
     color: var(--title-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.14;
     letter-spacing: 0.28px;
 }
 
@@ -67,7 +67,7 @@ body{
     color: var(--logo-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.14;
     letter-spacing: 0.28px;
 }
 
@@ -75,14 +75,14 @@ body{
     color: var(--title-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.14;
     letter-spacing: 0.28px;
 }
 .header-kontakty:hover{
     color: var(--logo-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.14;
     letter-spacing: 0.28px;
 }
 
@@ -90,14 +90,14 @@ body{
     color: var(--logo-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.14;
     letter-spacing: 0.28px;
 }
 .header-mail:hover{
     color: var(--title-color);
 font-size: 14px;
 font-weight: 500;
-line-height: normal;
+line-height: 1.14;
 letter-spacing: 0.28px;
 }
 
@@ -105,7 +105,7 @@ letter-spacing: 0.28px;
     color: var(--accent-color);
 font-size: 14px;
 font-weight: 500;
-line-height: normal;
+line-height: 1.14;
 letter-spacing: 0.28px;
 }    
 
@@ -130,7 +130,7 @@ letter-spacing: 0.28px;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.875; /* 187.5% */
+line-height: 1.87; /* 187.5% */
 letter-spacing: 0.96px;  
 }
 
@@ -139,7 +139,7 @@ letter-spacing: 0.96px;
 font-size: 14px;
 font-style: normal;
 font-weight: 700;
-line-height: normal;
+line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
@@ -157,7 +157,7 @@ letter-spacing: 0.42px;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: normal;
+line-height: 1.16;
 letter-spacing: 1.08px;
 }
 
@@ -170,7 +170,7 @@ letter-spacing: 1.08px;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.16;
     letter-spacing: 1.08px;
 }
 
@@ -179,7 +179,7 @@ letter-spacing: 1.08px;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.18;
     letter-spacing: 0.48px;
 
 }
@@ -189,7 +189,7 @@ letter-spacing: 1.08px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.18;
     letter-spacing: 0.48px;
 }
 
@@ -203,7 +203,7 @@ letter-spacing: 1.08px;
 font-size: 26px;
 font-style: normal;
 font-weight: 700;
-line-height: normal;
+line-height: 1.38;
 letter-spacing: 0.78px;
 }
 
@@ -213,7 +213,7 @@ letter-spacing: 0.78px;
 font-size: 26px;
 font-style: normal;
 font-weight: 700;
-line-height: normal;
+line-height: 1.38;
 letter-spacing: 0.78px;
 }
 
