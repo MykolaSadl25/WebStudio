@@ -69,6 +69,7 @@ font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
 }
+   
 
 .hero{
     background:var(--hero-section-bcg-color);
@@ -187,7 +188,7 @@ line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 }
 
-.address{
+.footer-contact{
     color: var(--email-tel-footer-color);
 font-size: 14px;
 font-style: normal;
@@ -195,4 +196,3 @@ font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 }
-
