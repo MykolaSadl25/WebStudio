@@ -22,7 +22,7 @@ body{
 .header-index{
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
+    
     font-weight: 700;
     line-height: 1.38;
     letter-spacing: 0.78px;
@@ -32,7 +32,7 @@ body{
 .header-index2{
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
+    
     font-weight: 700;
     line-height: 1.38;
     letter-spacing: 0.78px;
@@ -77,7 +77,7 @@ letter-spacing: 0.28px;
 .hero-title{
     color: var(--text-color);
     font-size: 44px;
-    font-style: normal;
+    
     font-weight: 900;
     line-height: 1.36; /* 136.364% */
     letter-spacing: 2.64px;
@@ -89,7 +89,7 @@ letter-spacing: 0.28px;
     background-color: #2196F3;
     position: relative; 
 font-size: 16px;
-font-style: normal;
+
 font-weight: 700;
 line-height: 1.87; /* 187.5% */
 letter-spacing: 0.96px;  
@@ -98,7 +98,7 @@ letter-spacing: 0.96px;
 .features-subtitle{
     color: var(--title-color);   
 font-size: 14px;
-font-style: normal;
+
 font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.42px;
@@ -108,7 +108,7 @@ text-transform: uppercase;
 .features-text{
     color: var(--accent-color);
 font-size: 14px;
-font-style: normal;
+
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
@@ -116,7 +116,7 @@ letter-spacing: 0.42px;
 
 .work-title{
 font-size: 36px;
-font-style: normal;
+
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
@@ -129,7 +129,7 @@ letter-spacing: 1.08px;
 .team-heading{
     color: var(--team-heading-color);
     font-size: 36px;
-    font-style: normal;
+    
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 1.08px;
@@ -138,7 +138,7 @@ letter-spacing: 1.08px;
 .team-name{
     color: var(--team-heading-color);
     font-size: 16px;
-    font-style: normal;
+    
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.48px;
@@ -148,7 +148,7 @@ letter-spacing: 1.08px;
 .team-description{
     color: var(--accent-color);
     font-size: 16px;
-    font-style: normal;
+    
     font-weight: 400;
     line-height: 1.18;
     letter-spacing: 0.48px;
@@ -162,7 +162,6 @@ letter-spacing: 1.08px;
     color: var(--logo-color);
     font-family: Raleway;
 font-size: 26px;
-font-style: normal;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
@@ -172,7 +171,7 @@ letter-spacing: 0.78px;
     color: var(--text-color);
     font-family: Raleway;
 font-size: 26px;
-font-style: normal;
+
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
@@ -181,16 +180,16 @@ letter-spacing: 0.78px;
 .address-map{
     color: var(--text-color);
 font-size: 14px;
-font-style: normal;
+font-style: italic;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 }
 
-.address{
+.footer-contact{
     color: var(--email-tel-footer-color);
 font-size: 14px;
-font-style: normal;
+
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
