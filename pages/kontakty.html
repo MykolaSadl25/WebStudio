@@ -4,43 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../kontaktycss/reset.css">
+    <link rel="stylesheet" href="../kontaktycss/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Шапка -->
     <header>
-      <a href="../index.html">WebStudio</a>
-      <ul>
-        <li>
-          <a href="./Studio.html">Студія</a>
+      <div class="container">
+      <a href="../index.html"class="header-index">Web<span class="header-index2">Studio</span></a>
+        <nav class="navigation">
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link" href="./Studio.html">Студія</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="./kontakty.html">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-items">
+        <li class="header-element">
+          <a class="header-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li>
-          <a href="./portfolio.html">Портфоліо</a>
-        </li>
-        <li>
-          <a href="./kontakty.html">Контакти</a>
+        <li class="header-element">
+          <a class="header-contact" href="tel:+380981111111">+380981111111</a>
         </li>
       </ul>
-      <ul>
-      <li>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      </li>
-      <li>
-        <a href="tel:+380981111111">+380981111111</a>
-      </li>
-    </ul>
+    </div>
     </header>
     <!-- Головна частина сайту -->
     <main>
-        <h1>Упс нічого немає 🙁</h1>
+      <div class="container">
+        <h1 class="main-title">Упс нічого немає 🙁</h1>
+        <p class="main-title">До сіх пір нічого немає</p>
+      </div>
     </main>
     <!-- Підвал -->
-    <footer>
-        <h2>WebStudio</h2>
-        <address>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380981111111">+380981111111</a>
-        </address>
+    <footer class="footer">
+      <div class="container">
+      <a class="footer-logo" href="../index.html">Web<span class="footer-logo2">Studio</span></a>
+      <address class="footer-address">
+        <ul class="footer-list">
+          <li class="footer-item"><a
+            class="address-map"
+            href="https://www.google.co.uk/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0,+02000/@50.4282679,30.5314055,1518m/data=!3m1!1e3!4m6!3m5!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            title="Адреса"
+          >м. Київ, пр-т Лесі Українки, 26</a>
+          <li class="footer-item"><a class="footer-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="footer-item"><a class="footer-contact" href="tel:+380981111111">+380981111111</a></li></li>
+        </ul>
+      </address>
+      </div>
     </footer>
 </body>
 </html>

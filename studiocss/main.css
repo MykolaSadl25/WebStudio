@@ -19,6 +19,14 @@ body{
     font-family:Roboto;
 }
 
+.container{
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .header-index{
     font-family: Raleway;
     font-size: 26px;
