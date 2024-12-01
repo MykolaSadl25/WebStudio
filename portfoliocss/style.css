@@ -26,6 +26,12 @@ body{
     padding-right: 15px;
 }
 
+.header{
+    padding-top: 24px;
+    padding-bottom: 119px;
+
+}
+
 .header-index{
     font-family: Raleway;
     font-size: 26px;
@@ -79,6 +85,10 @@ line-height: 1.14;
 letter-spacing: 0.28px;
 }
 
+.pages{
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
 
 .pages-btn{
     color:var(--title-color);
@@ -113,6 +123,11 @@ letter-spacing: 0.28px;
     height: 38px;
 }
 
+.gallery{
+    padding-top: 50px;
+    padding-bottom: 114px;
+}
+
 .gallery-name{
     color: var(--title-color);
     font-family: Roboto;
@@ -135,6 +150,8 @@ letter-spacing: 0.28px;
 
 .footer{
     background: var(--footer-bcg);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo{
