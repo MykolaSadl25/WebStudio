@@ -16,7 +16,7 @@
 }
 
 .container{
-    width: 1230px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -29,6 +29,7 @@ body{
 
 .header{
     padding-top: 24px;
+    padding-bottom: 25px;
 }
 .header-index{
     font-family: Raleway;
@@ -82,7 +83,8 @@ letter-spacing: 0.28px;
 
 .hero{
     background:var(--hero-section-bcg-color);
-    padding-top: 225px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title{
@@ -106,7 +108,7 @@ letter-spacing: 0.96px;
 
 .features{
     padding-top: 94px;
-    padding-bottom: 118px;
+    padding-bottom: 94px;
 }
 .features-subtitle{
     color: var(--title-color);   
@@ -126,7 +128,8 @@ letter-spacing: 0.42px;
 }
 
 .work{
-    padding-bottom: 188px;
+    padding-top: 118px;
+    padding-bottom: 94px;
 }
 .work-title{
 font-size: 36px;
@@ -137,7 +140,9 @@ letter-spacing: 1.08px;
 
 .team{
     background: #F5F4FA;
-    padding-bottom: 124px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
 }
 
 .team-heading{
