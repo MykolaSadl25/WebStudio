@@ -31,13 +31,19 @@ body{
     padding-top: 24px;
     padding-bottom: 25px;
 }
+
+.header-box{ 
+    display: flex;
+    align-items: center;
+}
+
 .header-index{
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     line-height: 1.38;
     letter-spacing: 0.78px;
-    color:var(--logo-color)
+    color:var(--logo-color);
 }
 
 .header-index2{
@@ -46,7 +52,21 @@ body{
     font-weight: 700;
     line-height: 1.38;
     letter-spacing: 0.78px;
-    color:var(--title-color)
+    color:var(--title-color);
+    
+}
+
+.header-list{
+    display: flex;
+    gap: 50px;
+    margin-left: 93px;
+    margin-right: 344px;
+}
+
+.header-items{
+    display: flex;
+    gap: 50px;
+    margin-right: 215px;
 }
 
 .header-link{
@@ -85,31 +105,46 @@ letter-spacing: 0.28px;
     background:var(--hero-section-bcg-color);
     padding-top: 200px;
     padding-bottom: 200px;
+    text-align: center;
 }
 
 .hero-title{
     color: var(--text-color);
+    text-align: center;
+    width: 700px;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36; /* 136.364% */
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 
 .hero-btn{
     color: var(--bcg-color);
     background-color: #2196F3;
     position: relative; 
+    border-radius: 4px;
 font-size: 16px;
 font-weight: 700;
 line-height: 1.87; /* 187.5% */
-letter-spacing: 0.96px;  
+letter-spacing: 0.96px; 
+padding: 10px 32px 10px 32px; 
+border: none;
 }
 
 .features{
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+.features-list{
+    display: flex;
+    gap: 30px;
+}
+
 .features-subtitle{
     color: var(--title-color);   
 font-size: 14px;
@@ -128,7 +163,6 @@ letter-spacing: 0.42px;
 }
 
 .work{
-    
     padding-bottom: 94px;
 }
 .work-title{
@@ -136,6 +170,14 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
+text-align: center;
+margin-bottom: 50px;
+
+}
+
+.work-list{
+    display: flex;
+    gap: 30px;
 }
 
 .team{
@@ -145,12 +187,23 @@ letter-spacing: 1.08px;
 
 }
 
+.team-list{
+    display: flex;
+    gap: 30px;
+}
+.team-item{
+    background-color: #FFF;
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+}
 .team-heading{
     color: var(--team-heading-color);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 1.08px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .team-name{
@@ -159,6 +212,7 @@ letter-spacing: 1.08px;
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.48px;
+    margin-top: 30px;
 
 }
 
@@ -168,6 +222,8 @@ letter-spacing: 1.08px;
     font-weight: 400;
     line-height: 1.18;
     letter-spacing: 0.48px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .footer{
@@ -194,16 +250,22 @@ line-height: 1.38;
 letter-spacing: 0.78px;
 }
 
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
 .address-map{
     color: var(--text-color);
 font-size: 14px;
-font-style: italic;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 }
 
 .footer-contact{
+    margin-top: 20px;
     color: var(--email-tel-footer-color);
 font-size: 14px;
 font-weight: 400;
