@@ -66,7 +66,6 @@ body{
 .header-items{
     display: flex;
     gap: 50px;
-    margin-right: 215px;
 }
 
 .header-link{
@@ -111,7 +110,7 @@ letter-spacing: 0.28px;
 .hero-title{
     color: var(--text-color);
     text-align: center;
-    width: 700px;
+    width: 696px;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36; /* 136.364% */
@@ -152,6 +151,7 @@ font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+margin-bottom: 10px;
 }
 
 .features-text{
@@ -196,6 +196,12 @@ margin-bottom: 50px;
     border-radius: 0px 0px 4px 4px;
     text-align: center;
 }
+
+.team-card{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .team-heading{
     color: var(--team-heading-color);
     font-size: 36px;
@@ -212,7 +218,6 @@ margin-bottom: 50px;
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.48px;
-    margin-top: 30px;
 
 }
 
@@ -223,7 +228,6 @@ margin-bottom: 50px;
     line-height: 1.18;
     letter-spacing: 0.48px;
     margin-top: 10px;
-    margin-bottom: 30px;
 }
 
 .footer{
@@ -253,6 +257,7 @@ letter-spacing: 0.78px;
 .footer-list{
     display: flex;
     flex-direction: column;
+    column-gap: 9px;
     margin-top: 20px;
 }
 
