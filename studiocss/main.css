@@ -263,6 +263,7 @@ letter-spacing: 0.78px;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    row-gap: 9px;
 }
 
 .address-map{
@@ -271,8 +272,6 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
-padding-bottom: 9px;
-
 }
 
 .footer-contact{
@@ -282,5 +281,4 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
-padding-bottom: 9px;
 }
