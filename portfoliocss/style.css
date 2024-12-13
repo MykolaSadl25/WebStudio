@@ -154,8 +154,8 @@ letter-spacing: 0.28px;
 
 .gallery-list{
     display: flex;
+    flex-wrap:wrap;
     justify-content: center;
-    flex-wrap: wrap;
     margin-top: 50px;
     gap: 30px;
 }
@@ -163,6 +163,10 @@ letter-spacing: 0.28px;
 .gallery-item{
     border: 1px solid var(--border-color);
     background: var(--text-color);
+}
+
+.gallery-text{
+    padding: 20px 24px;
 }
 
 .gallery-name{
@@ -173,9 +177,6 @@ letter-spacing: 0.28px;
     font-weight: 700;
     line-height: 2; /* 200% */
     letter-spacing: 1.08px;
-    padding-top: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
 }
 
 .gallery-description{
@@ -186,9 +187,6 @@ letter-spacing: 0.28px;
     font-weight: 400;
     line-height: 1.87; /* 187.5% */
     letter-spacing: 0.48px;
-    padding-bottom: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
 }
 
 .footer{
