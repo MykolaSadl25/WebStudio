@@ -163,6 +163,11 @@ letter-spacing: 0.28px;
 .gallery-item{
     border: 1px solid var(--border-color);
     background: var(--text-color);
+    flex-basis: calc((100% - 60px) /3);
+}
+
+.gallery-image{
+    width: 100%;
 }
 
 .gallery-text{
