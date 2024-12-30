@@ -145,6 +145,10 @@ border: none;
     gap: 30px;
 }
 
+.features-image{
+    margin-bottom: 30px;
+}
+
 .features-subtitle{
     color: var(--title-color);   
     width: 270px;
