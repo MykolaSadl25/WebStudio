@@ -145,9 +145,62 @@ border: none;
     gap: 30px;
 }
 
-.features-image{
+.features-item:first-child:before{
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: var(--team-bcg);
+    border-radius: 4px;
     margin-bottom: 30px;
+    background-image:url(../indeximages/antenna.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
 }
+
+.features-item:nth-child(2):before{
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: var(--team-bcg);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background-image:url(../indeximages/clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+
+.features-item:nth-child(3):before{
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: var(--team-bcg);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background-image:url(../indeximages/diagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+
+.features-item:nth-child(4):before{
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: var(--team-bcg);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background-image:url(../indeximages/astronaut.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+
 
 .features-subtitle{
     color: var(--title-color);   
