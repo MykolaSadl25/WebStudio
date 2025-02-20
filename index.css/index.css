@@ -61,12 +61,12 @@ body{
     display: flex;
     gap: 50px;
     margin-left: 93px;
-    margin-right: 344px;
+    margin-right: 318px;
 }
 
 .header-items{
     display: flex;
-    gap: 50px;
+    gap: 30px;
 }
 
 .header-link{
@@ -99,7 +99,34 @@ font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
 }
-   
+
+.header-mail{
+    fill: var(--accent-color);
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.header-mail:hover{
+    fill: var(--logo-color);
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.header-phone{
+    fill: var(--accent-color);
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.header-phone:hover{
+    fill: var(--logo-color);
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+}
 
 .hero{
     background:var(--hero-section-bcg-color);
