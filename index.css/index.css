@@ -12,7 +12,7 @@
     --team-heading-color:#212121;
     --team-bcg:#F5F4FA;;
     --footer-bcg:#2F303A;;
-
+    --social-color:#AFB1B8;
 }
 
 .container{
@@ -98,6 +98,12 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+.header-mail{
+    fill: var(--logo-color);
+}
+.header-phone{
+    fill: var(--logo-color);
+}
 }
 
 .header-mail{
@@ -107,22 +113,8 @@ letter-spacing: 0.28px;
     margin-right: 10px;
 }
 
-.header-mail:hover{
-    fill: var(--logo-color);
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-}
-
 .header-phone{
     fill: var(--accent-color);
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
-}
-
-.header-phone:hover{
-    fill: var(--logo-color);
     width: 10px;
     height: 16px;
     margin-right: 10px;
@@ -318,6 +310,83 @@ margin-bottom: 50px;
     line-height: 1.18;
     letter-spacing: 0.48px;
     margin-top: 10px;
+}
+
+/* .team-social{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-social:hover{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--logo-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .review-icon{
+        fill: #FFFFFF;
+    }
+}
+
+
+.team-items{
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    margin-top: 28px;
+}
+
+.team-icon{
+    width: 20px;
+    height: 20px;
+    gap: 34px;
+    fill: var(--social-color);
+} */
+
+.team-items{
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+}
+
+.team-social{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-social:hover{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color:var(--logo-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .review-icon{
+        color: var(--accent-color);
+    }
+}
+
+.team-icon{
+    width: 20px;
+    height: 20px;
+    fill: var(--social-color);
+}
+
+.team-icon:hover{
+    width: 20px;
+    height: 20px;
+    fill: var(--text-color);
 }
 
 .footer{
