@@ -62,12 +62,12 @@ body{
     display: flex;
     gap: 50px;
     margin-left: 93px;
-    margin-right: 344px;
 }
 
 .header-items{
     display: flex;
-    gap: 50px;
+    gap: 30px;
+    margin-left: auto;
 }
 
 .header-link{
@@ -331,6 +331,7 @@ margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 16px;
 }
 
 .team-social:hover{

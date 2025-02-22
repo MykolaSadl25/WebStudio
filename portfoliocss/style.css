@@ -64,12 +64,13 @@ body{
     display: flex;
     gap: 50px;
     margin-left: 93px;
-    margin-right: 344px;
+    
 }
 
 .header-items{
     display: flex;
-    gap: 50px;
+    gap: 30px;
+    margin-left: auto;
 }
 
 .header-link{
