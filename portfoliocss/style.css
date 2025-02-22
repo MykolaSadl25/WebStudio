@@ -11,6 +11,7 @@
     --footer-bcg:#2F303A;
     --text-color:#FFF;
     --border-color: #eee;
+    --social-color:#AFB1B8;
 }
 
 
@@ -102,17 +103,16 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+.header-mail{
+    fill: var(--logo-color);
+}
+.header-phone{
+    fill: var(--logo-color);
+}
 }
 
 .header-mail{
     fill: var(--accent-color);
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-}
-
-.header-mail:hover{
-    fill: var(--logo-color);
     width: 16px;
     height: 12px;
     margin-right: 10px;
@@ -124,15 +124,6 @@ letter-spacing: 0.28px;
     height: 16px;
     margin-right: 10px;
 }
-
-.header-phone:hover{
-    fill: var(--logo-color);
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
-}
-
-
 .pages-list{
     display: flex;
     gap: 8px;;
@@ -282,4 +273,39 @@ line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 }
 
-/* /* jka */
+.footer-heading{
+    color: var(--text-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.footer-items{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-elem{
+    width: 44px;
+    height: 44px;
+    background-color:rgba(255, 255, 255, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-elem:hover{
+    background-color:var(--logo-color);
+}
+
+.footer-icon{
+    width: 20px;
+    height: 20px;
+    fill: var(--text-color);
+}
