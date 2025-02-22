@@ -455,10 +455,13 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+margin-bottom: 20px;
 }
 
 .footer-items{
     display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .footer-elem{
@@ -469,6 +472,10 @@ text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-elem:hover{
+    background-color:var(--logo-color);
 }
 
 .footer-icon{
