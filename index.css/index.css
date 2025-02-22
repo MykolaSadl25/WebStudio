@@ -312,43 +312,6 @@ margin-bottom: 50px;
     margin-top: 10px;
 }
 
-/* .team-social{
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.team-social:hover{
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: var(--logo-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .review-icon{
-        fill: #FFFFFF;
-    }
-}
-
-
-.team-items{
-    display: flex;
-    flex-direction: row;
-    gap: 34px;
-    margin-top: 28px;
-}
-
-.team-icon{
-    width: 20px;
-    height: 20px;
-    gap: 34px;
-    fill: var(--social-color);
-} */
-
 .team-items{
     display: flex;
     justify-content: center;
@@ -372,8 +335,8 @@ margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    .review-icon{
-        color: var(--accent-color);
+    .team-icon{
+        fill: var(--text-color);
     }
 }
 
@@ -387,6 +350,48 @@ margin-bottom: 50px;
     width: 20px;
     height: 20px;
     fill: var(--text-color);
+}
+
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-title{
+    color: var(--team-heading-color);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+}
+
+.clients-list{
+    display: flex;
+    gap: 30px;
+}
+
+.clients-item{
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: 1px solid var(--social-color);
+}
+
+.clients-item:hover{
+    border: 1px solid var(--logo-color);
+    .clients-icon{
+        width: 106px;
+        height: 60px;
+        fill: var(--logo-color);
+    }
+}
+
+.clients-icon{
+    width: 106px;
+    height: 60px;
+    fill: var(--social-color);
 }
 
 .footer{
@@ -440,4 +445,34 @@ font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 
+}
+
+.footer-heading{
+    color: var(--text-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+.footer-items{
+    display: flex;
+}
+
+.footer-elem{
+    width: 44px;
+    height: 44px;
+    background-color:rgba(255, 255, 255, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon{
+    width: 20px;
+    height: 20px;
+    fill: var(--text-color);
 }
