@@ -91,6 +91,8 @@ body{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.28px;
+    display: flex;
+    align-items: center;
 }
 .header-contact:hover{
     color: var(--logo-color);
@@ -315,7 +317,8 @@ margin-bottom: 50px;
 .team-items{
     display: flex;
     justify-content: center;
-    gap: 34px;
+    gap: 10px;
+    margin-top: 16px;
 }
 
 .team-social{
@@ -370,7 +373,7 @@ margin-bottom: 50px;
 
 .clients-list{
     display: flex;
-    gap: 30px;
+    justify-content:space-between;
 }
 
 .clients-item{
@@ -398,6 +401,11 @@ margin-bottom: 50px;
     background: var(--footer-bcg);
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer-wrap{
+    display: flex;
+    align-items: baseline;
 }
 
 .footer-logo{
@@ -445,6 +453,10 @@ font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 
+}
+
+.footer-join{
+    margin-left: 70px;
 }
 
 .footer-heading{
