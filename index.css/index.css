@@ -263,6 +263,46 @@ margin-bottom: 50px;
     gap: 30px;
 }
 
+.work-item{
+    position: relative;
+}
+
+.work-subtitle{
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+background: rgba(47, 48, 58, 0.80);
+width: 370px;
+height: 70px;
+padding: 27px 107px;
+position: absolute;
+top: 224px;
+}
+
+.work-subtitle:last-child{
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+background: rgba(47, 48, 58, 0.80);
+width: 370px;
+height: 70px;
+padding: 27px 95px;
+position: absolute;
+top: 224px;
+}
+
 .team{
     background: #F5F4FA;
     padding-top: 94px;
