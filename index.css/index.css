@@ -278,30 +278,15 @@ line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 background: rgba(47, 48, 58, 0.80);
-width: 370px;
+width: 100%;
 height: 70px;
-padding: 27px 107px;
+display: flex;
+justify-content: center;
+align-items: center;
 position: absolute;
-top: 224px;
+bottom: 0;
 }
 
-.work-subtitle:last-child{
-    color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-background: rgba(47, 48, 58, 0.80);
-width: 370px;
-height: 70px;
-padding: 27px 95px;
-position: absolute;
-top: 224px;
-}
 
 .team{
     background: #F5F4FA;
