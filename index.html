@@ -418,33 +418,36 @@
         </svg></button>
         <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
         <form class="modal-form">
-          <div class="modal-name">
             <label class="modal-label" >Ім'я
-              <input class="modal-input" type="text">
+              <input required class="modal-input" type="text">
+              <svg class="modal-icons">
+                <use href="./img/symbol-defs.svg#icon-man"></use>
+              </svg>
             </label>
-          </div>
-          <div class="modal-name">
             <label class="modal-label" >Телефон
-              <input class="modal-input" type="text">
+              <input required class="modal-input" type="text">
+              <svg class="modal-icons">
+                <use href="./img/symbol-defs.svg#icon-telephone"></use>
+              </svg>
             </label>
-          </div>
-          <div class="modal-name">
             <label class="modal-label" >Пошта
-              <input class="modal-input" type="text">
+              <input required class="modal-input" type="text">
+              <svg class="modal-icons">
+                <use href="./img/symbol-defs.svg#icon-mail"></use>
+              </svg>
             </label>
-          </div>
-          <div class="modal-name">
             <label class="modal-label" >Коментар
               <textarea class="modal-comment" placeholder="Введіть текст"></textarea>
             </label>
-          </div>
           <div class="modal-checkbox">
-            <label class="modal-label">Погоджуюся з розсилкою та приймаю<a class="modal-terms" href="#">Умови договору</a>
-              <input class="modal-tick" type="checkbox">
-            </label>
+              <input required class="modal-tick" type="checkbox">
+              <p class="modal-text">Погоджуюся з розсилкою та приймаю</p>
+              <a class="modal-link" href="#">Умови договору</a>
+          </div>
+          <div class="modal-box">
+            <button type="submit" class="modal-btn">Відправити</button>
           </div>
         </form>
-        <div class="modal-btn"><button type="submit" class="modal-sent">Відправити</button></div>
       </div>
     </div>
     <script type="module" src="./js/modal.js"></script>
