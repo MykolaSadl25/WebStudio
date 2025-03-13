@@ -535,3 +535,191 @@ margin-bottom: 20px;
     height: 20px;
     fill: var(--text-color);
 }
+
+/* Modal Window */
+
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal{
+    width: 528px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+    position: relative;
+    padding: 40px;
+}
+
+.modal-close{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background-color: transparent;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.modal-close:hover,
+.modal-close:focus{
+    .modal-icon{
+        fill:#2196F3;
+    }
+}
+
+.modal-icon{
+    width: 18px;
+    height: 18px;
+    fill: var(--title-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-title{
+    color: #212121;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+margin-bottom: 12px;
+}
+
+.modal-label{
+    color: #757575;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+position: relative;
+}
+
+.modal-icons{
+    width: 18px;
+height: 18px;
+fill: var(--team-heading-color);
+position: absolute;
+top: 32px;
+left: 12px;
+}
+
+.modal-input{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    padding-left: 42px;
+}
+
+.modal-input:hover,
+.modal-input:focus{
+    border: none;
+    outline: 1px solid #2196F3;
+}
+
+.modal-input:hover + .modal-icons,
+.modal-input:focus + .modal-icons{
+    fill: #2196F3;
+}
+
+.modal-comment{
+    width: 100%;
+    height: 120px;
+    border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+resize: none;
+padding: 12px 16px;
+color: rgba(117, 117, 117, 0.50);
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+margin-bottom: 20px;
+margin-top: 4px;
+}
+
+.modal-comment:hover,
+.modal-comment:focus{
+    border: none;
+    outline: 1px solid #2196F3;
+}
+
+.modal-comment:hover,
+.modal-comment:focus{
+    color: #2196F3;
+}
+
+.modal-checkbox{
+    display: flex;
+    justify-content: center;
+}
+
+.modal-text{
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71; /* 171.429% */
+letter-spacing: 0.42px;
+margin-left: 9px;
+margin-right: 4px;
+}
+
+.modal-link{
+    color: #2196F3;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.42px;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+
+.modal-box{
+    display: flex;
+    justify-content: center;
+
+}
+
+.modal-btn{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.87; /* 187.5% */
+letter-spacing: 0.96px;
+border-radius: 4px;
+background: var(--logo-color);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+border: none;
+padding: 10px 52px;
+margin-top: 30px;
+}
