@@ -543,14 +543,13 @@ margin-left: 93px;
 
 .footer-input{
     border-radius: 4px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 16px;
-    display: block;
-    padding-right: auto;
+    width: 358px;
+height: 50px;
 border: 1px solid var(--border-color);
 background: var(--footer-bcg);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+margin-left: 93px;
+margin-top: 20px;
 }
 
 .footer-btn{
