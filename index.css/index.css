@@ -70,6 +70,10 @@ body{
     margin-left: auto;
 }
 
+.header-item{
+    position: relative;
+}
+
 .header-link{
     color: var(--title-color);
     font-size: 14px;
@@ -78,12 +82,31 @@ body{
     letter-spacing: 0.28px;
 }
 
+.header-link::after{
+    content: "";
+    display: block;
+    border-radius: 2px;
+background: var(--logo-color);
+width: 100%;
+height: 4px;
+position: absolute;
+left: 0;
+bottom: -34px;
+visibility: hidden;
+}
+
 .header-link:hover{
     color: var(--logo-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.28px;
+}
+
+.header-link:hover::after{
+    display: block;
+    /* opacity: 1; */
+    visibility: visible;
 }
 
 .header-contact{
