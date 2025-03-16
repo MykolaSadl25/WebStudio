@@ -14,3 +14,6 @@ h1,h2,h3,p{
     padding: 0;
     
 }
+address{
+    font-style: normal;
+}
