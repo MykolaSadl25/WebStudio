@@ -17,6 +17,9 @@
     --header-border:#ECECEC;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family:Roboto;
@@ -98,7 +101,10 @@ height: 4px;
 position: absolute;
 left: 0;
 bottom: -34px;
-visibility: hidden;
+opacity: 0;
+transition-property: opacity;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 
@@ -112,8 +118,8 @@ visibility: hidden;
 
 .header-link:hover::after{
     display: block;
-    /* opacity: 1; */
-    visibility: visible;
+    opacity: 1;
+    /* visibility: visible; */
 }
 
 .header-contact{
@@ -124,6 +130,9 @@ visibility: hidden;
     letter-spacing: 0.28px;
     display: flex;
     align-items: center;
+    transition-property: color;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 .header-contact:hover{
     color: var(--logo-color);
@@ -157,7 +166,6 @@ letter-spacing: 0.28px;
     gap: 8px;;
     justify-content: center;
 }
-
 
 .pages-btn{
     color:var(--title-color);
@@ -213,6 +221,9 @@ letter-spacing: 0.28px;
     outline: 1px solid var(--border-color);
     background: var(--text-color);
     flex-basis: calc((100% - 60px) /3);
+    transition-property: box-shadow;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .gallery-item:hover{
@@ -255,6 +266,9 @@ background-color: var(--gallery-back-color);
 z-index: 1;
 opacity: 0;
 padding: 63px 24px;
+transition-property: opacity;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .gallery-text{

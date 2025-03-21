@@ -25,6 +25,10 @@
     outline: 2px solid blue;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family:Roboto;
 }
@@ -80,6 +84,9 @@ body{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.28px;
+    transition-property: color;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .header-link::after{
@@ -92,7 +99,10 @@ height: 4px;
 position: absolute;
 left: 0;
 bottom: -34px;
-visibility: hidden;
+opacity: 0;
+transition-property: opacity;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .header-link:hover{
@@ -105,8 +115,8 @@ visibility: hidden;
 
 .header-link:hover::after{
     display: block;
-    /* opacity: 1; */
-    visibility: visible;
+    opacity: 1;
+    /* visibility: visible; */
 }
 
 
@@ -118,6 +128,9 @@ visibility: hidden;
     letter-spacing: 0.28px;
     display: flex;
     align-items: center;
+    transition-property: color;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .header-contact:hover{
@@ -667,6 +680,9 @@ fill: var(--text-color);
     position: absolute;
     top: 8px;
     right: 8px;
+    transition-property: fill;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .modal-close:hover,
@@ -724,6 +740,9 @@ left: 12px;
     margin-top: 4px;
     margin-bottom: 10px;
     padding-left: 42px;
+    transition-property: outline;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .modal-input:hover,
@@ -751,6 +770,9 @@ line-height: normal;
 letter-spacing: 0.12px;
 margin-bottom: 20px;
 margin-top: 4px;
+transition-property: outline;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .modal-comment:hover,
