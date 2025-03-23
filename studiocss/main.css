@@ -152,6 +152,9 @@ letter-spacing: 0.28px;
     width: 16px;
     height: 12px;
     margin-right: 10px;
+    transition-property: fill;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .header-phone{
@@ -159,6 +162,9 @@ letter-spacing: 0.28px;
     width: 10px;
     height: 16px;
     margin-right: 10px;
+    transition-property: fill;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
    
 
@@ -399,6 +405,7 @@ top: 224px;
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-top: 16px;
 }
 
 .team-social{
@@ -408,7 +415,9 @@ top: 224px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 16px;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .team-social:hover{
@@ -428,6 +437,9 @@ top: 224px;
     width: 20px;
     height: 20px;
     fill: var(--social-color);
+    transition-property: fill;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .team-icon:hover{
@@ -461,6 +473,9 @@ top: 224px;
     padding: 16px 32px;
     border-radius: 4px;
     border: 1px solid var(--social-color);
+    transition-property: border;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .clients-item:hover{
@@ -476,6 +491,9 @@ top: 224px;
     width: 106px;
     height: 60px;
     fill: var(--social-color);
+    transition-property: fill;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .footer{
@@ -567,6 +585,9 @@ margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .footer-elem:hover{
@@ -680,9 +701,6 @@ fill: var(--text-color);
     position: absolute;
     top: 8px;
     right: 8px;
-    transition-property: fill;
-    transition-duration: 300ms;
-    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .modal-close:hover,
@@ -699,6 +717,9 @@ fill: var(--text-color);
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-property: fill;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .modal-title{
@@ -729,6 +750,9 @@ fill: var(--team-heading-color);
 position: absolute;
 top: 32px;
 left: 12px;
+transition-property: fill;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .modal-input{
@@ -740,7 +764,7 @@ left: 12px;
     margin-top: 4px;
     margin-bottom: 10px;
     padding-left: 42px;
-    transition-property: outline;
+    transition-property: border;
     transition-duration: 300ms;
     transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
@@ -748,7 +772,7 @@ left: 12px;
 .modal-input:hover,
 .modal-input:focus{
     border: none;
-    outline: 1px solid #2196F3;
+    border: 1px solid #2196F3;
 }
 
 .modal-input:hover + .modal-icons,
@@ -768,9 +792,8 @@ font-size: 12px;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.12px;
-margin-bottom: 20px;
 margin-top: 4px;
-transition-property: outline;
+transition-property: border;
     transition-duration: 300ms;
     transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
@@ -778,7 +801,7 @@ transition-property: outline;
 .modal-comment:hover,
 .modal-comment:focus{
     border: none;
-    outline: 1px solid #2196F3;
+    border: 1px solid #2196F3;
 }
 
 .modal-comment:hover,
@@ -789,6 +812,7 @@ transition-property: outline;
 .modal-checkbox{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .modal-text{

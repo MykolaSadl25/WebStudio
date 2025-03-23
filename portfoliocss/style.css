@@ -153,6 +153,9 @@ letter-spacing: 0.28px;
     width: 16px;
     height: 12px;
     margin-right: 10px;
+    transition-property: fill;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .header-phone{
@@ -160,6 +163,9 @@ letter-spacing: 0.28px;
     width: 10px;
     height: 16px;
     margin-right: 10px;
+    transition-property: fill;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 .pages-list{
     display: flex;
@@ -184,6 +190,15 @@ letter-spacing: 0.28px;
     height: 38px;
     flex-shrink: 0;
     padding: 6px 22px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
+    transition-property: box-shadow;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .pages-btn:hover{
@@ -384,6 +399,9 @@ margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 
 .footer-elem:hover{
