@@ -197,7 +197,7 @@ letter-spacing: 0.28px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(1,.45,0,1.15);
     transition-property: box-shadow;
-    transition-duration: 300ms;
+    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
 

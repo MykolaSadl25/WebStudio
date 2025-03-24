@@ -764,7 +764,7 @@ transition-property: fill;
     margin-top: 4px;
     margin-bottom: 10px;
     padding-left: 42px;
-    transition-property: border;
+    transition-property: outline;
     transition-duration: 300ms;
     transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
@@ -772,7 +772,7 @@ transition-property: fill;
 .modal-input:hover,
 .modal-input:focus{
     border: none;
-    border: 1px solid #2196F3;
+    outline: 1px solid #2196F3;
 }
 
 .modal-input:hover + .modal-icons,
@@ -793,7 +793,7 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: 0.12px;
 margin-top: 4px;
-transition-property: border;
+transition-property: outline;
     transition-duration: 300ms;
     transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
@@ -801,7 +801,7 @@ transition-property: border;
 .modal-comment:hover,
 .modal-comment:focus{
     border: none;
-    border: 1px solid #2196F3;
+    outline: 1px solid #2196F3;
 }
 
 .modal-comment:hover,
