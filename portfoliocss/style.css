@@ -190,13 +190,7 @@ letter-spacing: 0.28px;
     height: 38px;
     flex-shrink: 0;
     padding: 6px 22px;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(1,.45,0,1.15);
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(1,.45,0,1.15);
-    transition-property: box-shadow;
+    transition-property: color,background-color,box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(1,.45,0,1.15);
 }
@@ -204,18 +198,6 @@ letter-spacing: 0.28px;
 .pages-btn:hover{
     color: var(--bcg-color);
     background-color: var(--logo-color);
-    position: relative; 
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.62; /* 162.5% */
-    letter-spacing: 0.48px; 
-    border-radius: 4px;
-    background: var(--logo-color);
-    width: 125px;
-    height: 38px;
-    padding: 6px 22px;
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
