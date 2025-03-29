@@ -239,6 +239,7 @@ height: 294px;
 .gallery-item:hover{
     .gallery-subtext{
         opacity: 1;
+        transform: translateY(0);
     }
 }
 
@@ -263,9 +264,10 @@ background-color: var(--gallery-back-color);
 z-index: 1;
 opacity: 0;
 padding: 63px 24px;
-transition-property: opacity;
+transition-property: opacity,transform;
     transition-duration: 300ms;
     transition-timing-function: cubic-bezier(1,.45,0,1.15);
+    transform: translateY(100%);
 }
 
 .gallery-text{
