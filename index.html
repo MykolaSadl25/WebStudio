@@ -11,14 +11,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./index.css/reset.css" />
-    <link rel="stylesheet" href="./index.css/index.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./index.css/reset.css" />
+    <link rel="stylesheet" href="./index.css/index.css" />
   </head>
   <body>
     <!-- Шапка -->
@@ -102,11 +107,11 @@
         </div>
       </section>
       <!-- ЧИМ МИ ЗАЙМАЄМОСЯ -->
-      <section class="work">
+      <section class="work" data-aos="fade-up">
         <div class="container">
           <h2 class="work-title">Чим ми займаємося</h2>
           <ul class="work-list">
-            <li class="work-item">
+            <li class="work-item" data-aos="zoom-in">
               <img
                 class="work-gallery"
                 src="./indeximages/computer.jpg"
@@ -115,7 +120,7 @@
               />
               <p class="work-subtitle">Десктопні додатки</p>
             </li>
-            <li class="work-item">
+            <li class="work-item" data-aos="zoom-in">
               <img
                 class="work-gallery"
                 src="./indeximages/phone.jpg"
@@ -124,7 +129,7 @@
               />
               <p class="work-subtitle">Мобільні додатки</p>
             </li>
-            <li class="work-item">
+            <li class="work-item" data-aos="zoom-in">
               <img
                 class="work-gallery"
                 src="./indeximages/graphic.jpg"
@@ -136,11 +141,11 @@
           </ul>
         </div>
       </section>
-      <section class="team">
+      <section class="team" data-aos="fade-up">
         <div class="container">
           <h2 class="team-heading">Наша команда</h2>
           <ul class="team-list">
-            <li class="team-item">
+            <li class="team-item" data-aos-duration="2000" data-aos="fade-up-right">
               <!-- Ігор Дем'яненко -->
               <img
                 class="team-gallery"
@@ -183,7 +188,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-item">
+            <li class="team-item" data-aos-duration="2000" data-aos="fade-up">
               <!-- Ольга Рєпіна -->
               <img
                 class="team-gallery"
@@ -226,7 +231,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-item">
+            <li class="team-item" data-aos-duration="2000" data-aos="fade-up">
               <!-- Микола Тарасов -->
               <img
                 class="team-gallery"
@@ -269,7 +274,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-item">
+            <li class="team-item" data-aos-duration="2000" data-aos="fade-up-left">
               <!-- Михайло Єрмаков -->
               <img
                 class="team-gallery"
@@ -315,7 +320,7 @@
           </ul>
         </div>
       </section>
-      <section class="clients">
+      <section class="clients" data-aos="fade-up">
         <div class="container">
           <h2 class="clients-title">Постійні клієнти</h2>
           <ul class="clients-list">
@@ -461,5 +466,9 @@
       </div>
     </div>
     <script type="module" src="./js/modal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
